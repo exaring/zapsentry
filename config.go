@@ -3,7 +3,7 @@ package zapsentry
 import (
 	"time"
 
-	"github.com/getsentry/sentry-go"
+	"github.com/exaring/sentry-go"
 	"go.uber.org/zap/zapcore"
 )
 

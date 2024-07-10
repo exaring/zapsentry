@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/getsentry/sentry-go"
+	"github.com/exaring/sentry-go"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
@@ -345,7 +345,7 @@ type core struct {
 
 // follow same logic with sentry-go to filter unnecessary frames
 // ref:
-// https://github.com/getsentry/sentry-go/blob/362a80dcc41f9ad11c8df556104db3efa27a419e/stacktrace.go#L256-L280
+// https://github.com/exaring/sentry-go/blob/362a80dcc41f9ad11c8df556104db3efa27a419e/stacktrace.go#L256-L280
 func (c *core) filterFrames(frames []sentry.Frame) []sentry.Frame {
 	if len(frames) == 0 {
 		return nil

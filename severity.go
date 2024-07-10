@@ -1,7 +1,7 @@
 package zapsentry
 
 import (
-	"github.com/getsentry/sentry-go"
+	"github.com/exaring/sentry-go"
 	"go.uber.org/zap/zapcore"
 )
 

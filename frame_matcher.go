@@ -3,7 +3,7 @@ package zapsentry
 import (
 	"strings"
 
-	"github.com/getsentry/sentry-go"
+	"github.com/exaring/sentry-go"
 )
 
 type (

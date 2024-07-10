@@ -1,7 +1,7 @@
 package zapsentry
 
 import (
-	"github.com/getsentry/sentry-go"
+	"github.com/exaring/sentry-go"
 )
 
 func NewSentryClientFromDSN(DSN string) SentryClientFactory {
