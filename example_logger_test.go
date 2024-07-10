@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/getsentry/sentry-go"
+	"github.com/exaring/sentry-go"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"

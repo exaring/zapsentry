@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/getsentry/sentry-go"
+	"github.com/exaring/sentry-go"
 )
 
 func Test_core_filterFrames(t *testing.T) {
